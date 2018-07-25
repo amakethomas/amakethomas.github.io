@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Welcome to bootstrap</title>
+	<link rel="stylesheet"  href="css/bootstrap.min.css">
+	<style>
+		.bg-danger{
+			background-color: maroon !important;
+		}
+		.jumbotron{
+			background-image: url("17.jpg") !important;
+		}
+		.display-8{
+			font-size: 30px;
+			color: green;
+		}
+		.lead{
+			color: black;
+			font-weight: bolder;
+		}
+
+		.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark bg-danger">
+		<img src="logo.jpg" class="navbar-brand">
+      <a class="navbar-brand" href="#">Bigthomaxy</a>
+      <img src="bus.jpg" class="navbar-brand">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown04">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-md-0">
+          <input class="form-control" type="text" placeholder="Search">
+        </form>
+      </div>
+    </nav>
+
+
+
+	<h1>Hellow gyzs</h1>
+	<button class="btn btn-primary">submit</button>
+	<button class="btn btn-warning">submit</button>
+	<button class="btn btn-danger">submit</button>
+	<button class="btn btn-success">submit</button>
+	<button class="btn btn-secondary">submit</button>
+	<button class="btn btn-info">submit</button>
+	<button class="btn btn-dark">submit</button>
+	<br>
+	<br>
+
+	<button class="btn btn-outline-primary btn-lg">submit</button>
+	<button class="btn btn-outline-warning btn-lg">submit</button>
+	<button class="btn btn-outlinr-danger btn-lg">submit</button>
+	<button class="btn btn-outline-success btn-lg">submit</button>
+	<button class="btn btn-outline-secondary btn-lg">submit</button>
+	<button class="btn btn-outline-info btn-lg">submit</button>
+	<button class="btn btn-dark btn-lg">submit</button>
+	<br>
+	<br>
+
+	<a target="-blank" href="https://www.facebook.com/amake.bigthomas" class="btn btn-success btn-lg">facebook</a>
+	<br>
+	<div class="alert alert-danger alert-link">
+		Awesome its working well
+
+	</div>
+
+	<div class="alert alert-success">
+		Awesome its working well
+
+	</div>
+	<div class="alert alert-dark">
+		Awesome its working well
+
+	</div>
+
+
+<div class="alert alert-info">
+		Awesome its working well
+
+	</div>
+	<a target="-blank" href="https://www.instagram.com/" class=" btn btn-dark alert-link alert-danger">histagram</a>
+	<br>
+	<br>
+	<a target="-blank" href="https://www.youtube.com/?gl=UG" class=" btn btn-danger alert-link alert-danger">you tube</a>
+
+	<table class="table table-bordered table-striped">
+		<thead>
+			<tr class="table-active">
+				<th>S/N</th>
+				<th>FNAME</th>
+				<th>LNAME</th>
+				<th>E-MAIL</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="table-success">
+				<td>1</td>
+				<td>amake</td>
+				<td>bigtom</td>
+				<td>thomasamake@gmail.com</td>
+			</tr>
+			<tr class="table-danger">
+				<td>2</td>
+				<td>alowo</td>
+				<td>bigtom</td>
+				<td>thomasamake@yahoo.com</td>
+			</tr>
+			<tr class="table-warning">
+				<td>3</td>
+				<td>amake</td>
+				<td>beatrice</td>
+				<td>thomasamake12@gmail.com</td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+	<br>
+	<form>
+		<div class="form-group">	
+		<input class="form-control" type="text" placeholder="Full name">
+		</div>
+
+		<div class="form-group">
+			<input class="form-control" type="email" placeholder="Enter E-mail">
+		</div>
+		<div class="form-group">
+			<button class="btn btn-lg btn-success" type="submit">submit</button>
+		</div>
+	</form>
+
+	<div class="card" style="width: 300px;">
+  <img class="card-img-top" src="bigt.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">BIGTOM HIM SELF</h5>
+    <p class="card-text">Very proud to be a greate code developer. Hihihihihi  sap guys you should like me else otherwise..........</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<br>
+<br>
+
+<div class="container">
+	<div class="row">
+	<div class="col-md-4">
+		<h1>first of all......</h1>
+		<img src="fred.jpg" width="460" height="315" alt="sq-sample33" />
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div class="col-md-4">
+		<h1>secondly...</h1>
+		<img src="fred.jpg" width="460" height="315" alt="sq-sample33" />
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div class="col-md-4">
+		<h1>thirdly.......</h1>
+		<img src="fred.jpg" width="460" height="315" alt="sq-sample33" />
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+</div>
+
+</div>
+<br>
+<br>
+
+div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card card-hover h-100">
+                <div class="card-body">
+                    <i class="fa fa-search fa-5x float-right"></i>
+                    <h3 class="card-title">Front</h3>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <div class="reveal bg-warning p-2">
+                        This is hidden until card in hovered!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2>Opacity with Box</h2>
+<p>Hover over the image to see the effect.</p>
+
+<div class="container">
+  <img src="frnds.jpg" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">ME AND FRNDZ DURING TRAINING</div>
+  </div>
+</div>
+
+
+<div class="jumbotron">
+  <h1 class="display-8 ">Hello, world!</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+
+
+
+
+
+	<script src="jquery/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
